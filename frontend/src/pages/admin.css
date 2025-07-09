@@ -1,0 +1,65 @@
+/* admin.css */
+
+.admin-bg {
+  background-image: url('https://images.unsplash.com/photo-1525351484163-7529414344d8');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.admin-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.admin-title {
+  text-align: center;
+}
+
+.admin-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.admin-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.logout-button {
+  float: right;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-item {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}

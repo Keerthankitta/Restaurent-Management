@@ -1,0 +1,38 @@
+/* Menu.css */
+
+.menu-bg {
+  background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.menu-container {
+    
+  background-color: rgba(0, 0, 0, 0.6); /* Dark transparent overlay */
+  color: white;
+  padding: 80px;
+  border-radius: 120px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.menu-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-container li {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}

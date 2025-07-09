@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+.tmp/
+temp/
+
+# React specific
+*.env
+*.env.*.local
+coverage/
+public/static/
+public/manifest.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing
+coverage/
+jest.config.js
+__snapshots__/
+
+# Misc
+*.tgz
+.cache/
